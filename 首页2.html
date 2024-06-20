@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>人艺数法传播系网站 - 第二页面</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1208px;
+            height: 832px;
+            font-family: Arial, sans-serif;
+            position: relative;
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .header {
+            background-color: #f0f0f0;
+            padding: 30px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            position: relative;
+            right: 850px;
+            color: #a8d7f6; /* 蓝色文字 */
+            margin-left: px; /* 与logo保持一定间距 */
+        }
+        .logo {
+            height: 50px; /* 根据实际logo大小调整 */
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .profile {
+            margin: 90px; /* 调整边距 */
+        }
+        .profile img {
+            width: 90px; /* 根据实际需求调整大小 */
+            height: 120px;
+            border-radius: 50%;
+            background-color: #f0f0f0; /* 浅蓝色背景 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #3131b3; /* 蓝色边框 */
+            margin: 80px;
+        }
+        .info {
+            color: #010105;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .centered-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+       
+        /* 更新.circles-container类，使其能够容纳两行圆形图案 */
+        .circles-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* 为每个圆形添加样式，使其成为圆形并可以包含文本 */
+        .circle {
+            position: relative;
+            top: -400px;
+            left: 50px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid #000; /* 添加边框以便更清晰地看到圆形 */
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            background: #fff; /* 设置背景色 */
+        }
+        .circle input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            background: transparent;
+            color: #000; /* 设置文本颜色 */
+            background: transparent; /* 使输入框背景透明 */
+        }
+        .circle-80 { width: 150px; height: 150px;background-color: rgb(174, 245, 247); }
+        .circle-90 { width: 90px; height: 90px; background-color: rgb(0, 242, 255);}
+        .circle-70 { width: 70px; height: 70px; background-color: rgb(159, 199, 251);}
+        .circle-100 { width: 100px; height: 100px;background-color: rgb(120, 242, 191); } 
+        .circle-110 { width: 110px; height: 110px; background-color: rgb(0, 68, 255); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="/Users/a1234/Desktop/传播系网站/首页.html/img/logo.jpeg" alt="Logo" class="logo">
+        <h1>人艺数法传播系网站</h1>
+    </header>
+    <div class="content">
+        <div class="profile">
+            <img src="/Users/a1234/Desktop/传播系网站/首页.html/img/证件照.jpeg" alt="Profile"> <!-- 替换为实际圆形图案图片路径 -->
+            <div class="info">   </div>
+            <div class="info">  </div>
+            <input type="submit" value="   姓名：李一   
+            学号：22330066          ">
+            
+        </div>
+    </div>
+    <div class="content">
+        <!-- 左侧圆形图案 -->
+        <div class="circles-container left-circles">
+            <div class="circle circle-80"><input type="text" value="主页"></div>
+            <div class="circle circle-90"><input type="text" value="学院咨询"></div>
+            <div class="circle circle-70"><input type="text" value=""></div>
+            <div class="circle circle-100"><input type="text" value=""></div>
+            <div class="circle circle-110"><input type="text" value="招生就业"></div>
+        </div>
+        
+        <!-- 右侧圆形图案 -->
+        <div class="circles-container right-circles" style="margin-left: 600px;">
+            <div class="circle circle-80"><input type="text" value="科研力量"></div>
+            <div class="circle circle-90"><input type="text" value=""></div>
+            <div class="circle circle-70"><input type="text" value=""></div>
+            <div class="circle circle-100"><input type="text" value="师资力量"></div>
+            <div class="circle circle-110"><input type="text" value="学生天地"></div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
